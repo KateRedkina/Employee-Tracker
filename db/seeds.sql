@@ -16,14 +16,14 @@ VALUES
 ('Project Manager', 120000, 5), 
 ('Telemarketer', 60000, 6);
 
-INSERT INTO employee (first_name, last_name, role_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-('Kate', 'Redkina', 1),
-('Nick', 'Levis', 2),
-('Anna', 'Chumachenko', 3),
-('Alisa', 'Lubiva', 4),
-('Den', 'Deitch', 5),
-('Daria', 'Zagrodska', 6),
-('Jimmy', 'Fallon', 1),
-('John', 'Smith', 2),
-('Olga', 'Yakymenko', 5);
+('Syd', 'Barrett', 1, 5),
+('Nick', 'Mason', 2, 5),
+('Roger', 'Waters', 3, 5),
+('Richard', 'Wright', 4, 5),
+('David', 'Gilmour', 5, 4),
+('Robert', 'Plant', 6, 9),
+('Jimmy', 'Page', 1, 9),
+('John', 'Bonham', 2, 9),
+('John Paul', 'Jones', 5, 4);
